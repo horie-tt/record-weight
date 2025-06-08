@@ -1,0 +1,44 @@
+/* src/components/DataManagementScreen.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.delete-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.delete-button:hover {
+  background-color: #da190b;
+}
+
+/* Using existing .success-message from App.css, ensure it's generic enough or move it */
+/* For this task, we assume App.css .success-message is fine */
